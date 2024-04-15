@@ -1,13 +1,11 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene load_steps=2 format=3 uid="uid://dy5f5g5h8fifm"]
 
 [ext_resource type="PackedScene" path="res://practices/L6.P1.create_coins/ship_create_coins.tscn" id="1_x2knq"]
-[ext_resource type="Script" path="res://practices/L6.P1.create_coins/ship_create_coins.gd" id="2_ytyj5"]
 
 [node name="CreateCoins" type="Node2D"]
 
-[node name="Ship" type="Area2D" parent="." instance=ExtResource("1_x2knq")]
+[node name="Ship" parent="." instance=ExtResource("1_x2knq")]
 position = Vector2(973, 541)
-script = ExtResource("2_ytyj5")
 
 [node name="ExtraVisuals" type="Node" parent="."]
 
