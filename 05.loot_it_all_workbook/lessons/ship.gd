@@ -21,3 +21,4 @@ func _process(delta: float) -> void:
 
 	if velocity.length() > 0.0:
 		rotation = velocity.angle()
+
