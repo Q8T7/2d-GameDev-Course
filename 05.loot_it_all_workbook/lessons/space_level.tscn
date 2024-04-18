@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://dmv50krf4bo5r" path="res://lessons/ship.tscn" id="2_2j1u5"]
 [ext_resource type="PackedScene" uid="uid://bxfevggvxo634" path="res://assets/background/space_background.tscn" id="3_e6xy1"]
-[ext_resource type="PackedScene" uid="uid://cd7254ybw614" path="res://lessons/health_pack.tscn" id="3_qt4wa"]
+[ext_resource type="PackedScene" path="res://lessons/health_pack.tscn" id="3_qt4wa"]
 
 [node name="Level" type="Node2D"]
 
